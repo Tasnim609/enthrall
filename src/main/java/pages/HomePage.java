@@ -40,6 +40,7 @@ public class HomePage {
 		this.driver = driver;
 		// PageFactory class help to instantiate WebElements
 		// Important interview question
+		//update
 		PageFactory.initElements(driver, this);
 		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		js = (JavascriptExecutor)driver;
