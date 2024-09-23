@@ -1,0 +1,13 @@
+reports/Loggers.class
+baseUtil/BaseClass.class
+common/CommonActions.class
+pages/HomePage.class
+pages/NewUserRegistration.class
+constants/Attribute.class
+reports/ExtentReportManager.class
+utils/IConstant.class
+utils/Constant.class
+utils/Configuration.class
+common/CommonWaits.class
+reports/TestManager.class
+pages/ForgotUserId.class

@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="140.704" tests="305" errors="0" skipped="299" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="webdriver.chrome.driver" value="/Users/muhammadquarashy/.cache/selenium/chromedriver/mac64/128.0.6613.137/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/test-classes:/Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/classes:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/muhammadquarashy/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/muhammadquarashy/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/muhammadquarashy/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/muhammadquarashy/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/muhammadquarashy/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/muhammadquarashy/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/muhammadquarashy/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.1/webdrivermanager-5.9.1.jar:/Users/muhammadquarashy/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/muhammadquarashy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/muhammadquarashy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/muhammadquarashy/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/muhammadquarashy/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/muhammadquarashy/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/muhammadquarashy/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/muhammadquarashy/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/muhammadquarashy/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/muhammadquarashy/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/muhammadquarashy/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/muhammadquarashy/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/muhammadquarashy/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/muhammadquarashy/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/muhammadquarashy/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/muhammadquarashy/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/muhammadquarashy/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/muhammadquarashy/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/muhammadquarashy/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/surefire/surefirebooter-20240919133841601_3.jar /Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/surefire 2024-09-19T13-38-41_323-jvmRun1 surefire-20240919133841601_1tmp surefire_0-20240919133841601_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/test-classes:/Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/classes:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/muhammadquarashy/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/muhammadquarashy/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/muhammadquarashy/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/muhammadquarashy/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar:/Users/muhammadquarashy/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar:/Users/muhammadquarashy/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/muhammadquarashy/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/muhammadquarashy/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/muhammadquarashy/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.1/webdrivermanager-5.9.1.jar:/Users/muhammadquarashy/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/muhammadquarashy/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/muhammadquarashy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/muhammadquarashy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/muhammadquarashy/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/muhammadquarashy/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/muhammadquarashy/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/muhammadquarashy/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/muhammadquarashy/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/muhammadquarashy/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/muhammadquarashy/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/muhammadquarashy/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/muhammadquarashy/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/muhammadquarashy/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/muhammadquarashy/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/muhammadquarashy/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/muhammadquarashy/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/muhammadquarashy/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/muhammadquarashy/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/muhammadquarashy/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/muhammadquarashy/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/muhammadquarashy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/muhammadquarashy/eclipse-workspace/com.enthrall"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/muhammadquarashy/eclipse-workspace/com.enthrall/target/surefire/surefirebooter-20240919133841601_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1"/>
+    <property name="user.name" value="muhammadquarashy"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/muhammadquarashy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/2q/c_mlfcxd4_s059ct1v1tcf3r0000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/muhammadquarashy/eclipse-workspace/com.enthrall"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/muhammadquarashy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="navigateToForgotUserIdPageTest" classname="pagesTest.ForgotUserIdTest" time="28.783">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/muhammadquarashy/.cache/selenium/chromedriver/mac64/128.0.6613.137/chromedriver
+Sep 19, 2024 1:38:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 128
+Sep 19, 2024 1:38:58 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:38:58 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (69e75a07f8289cd5aae228be969abbcf)] -> id: cms-forgot-userid]<---------> is Displayed, true
+Sep 19, 2024 1:39:19 PM reports.Loggers logTheTest
+INFO: Proxy element for: DefaultElementLocator 'By.id: cms-forgot-userid'<-------> has been clicked
+Sep 19, 2024 1:39:23 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:39:23 PM reports.Loggers logTheTest
+INFO: Actual Title is : CMS Enterprise Portal - Forgot User ID ---> And Expected Title is :CMS Enterprise Portal - Forgot User ID
+Sep 19, 2024 1:39:23 PM reports.Loggers logTheTest
+INFO: Current URL : https://portal.cms.gov/portal/forgotuserid, Expected URL : https://portal.cms.gov/portal/forgotuserid
+]]></system-err>
+  </testcase>
+  <testcase name="use_of_dropdown_selectByVisibleText_method_test" classname="pagesTest.ForgotUserIdTest" time="8.553">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/muhammadquarashy/.cache/selenium/chromedriver/mac64/128.0.6613.137/chromedriver
+Sep 19, 2024 1:39:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 128
+Sep 19, 2024 1:39:32 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:39:32 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (f3cd279860b3b5bacea9037911d5b865)] -> id: cms-forgot-userid]<---------> is Displayed, true
+Sep 19, 2024 1:39:32 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (f3cd279860b3b5bacea9037911d5b865)] -> id: cms-forgot-userid]<-------> has been clicked
+Sep 19, 2024 1:39:36 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:39:36 PM reports.Loggers logTheTest
+INFO: Actual Title is : CMS Enterprise Portal - Forgot User ID ---> And Expected Title is :CMS Enterprise Portal - Forgot User ID
+Sep 19, 2024 1:39:36 PM reports.Loggers logTheTest
+INFO: Current URL : https://portal.cms.gov/portal/forgotuserid, Expected URL : https://portal.cms.gov/portal/forgotuserid
+]]></system-err>
+  </testcase>
+  <testcase name="use_of_dropdown_with_selectByIndex_method_test" classname="pagesTest.ForgotUserIdTest" time="13.052">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/muhammadquarashy/.cache/selenium/chromedriver/mac64/128.0.6613.137/chromedriver
+Sep 19, 2024 1:39:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 128
+Sep 19, 2024 1:39:43 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:39:43 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (c56c58b2a4caaf44494d260301c1cd21)] -> id: cms-forgot-userid]<---------> is Displayed, true
+Sep 19, 2024 1:39:44 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (c56c58b2a4caaf44494d260301c1cd21)] -> id: cms-forgot-userid]<-------> has been clicked
+Sep 19, 2024 1:39:48 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:39:48 PM reports.Loggers logTheTest
+INFO: Actual Title is : CMS Enterprise Portal - Forgot User ID ---> And Expected Title is :CMS Enterprise Portal - Forgot User ID
+Sep 19, 2024 1:39:48 PM reports.Loggers logTheTest
+INFO: Current URL : https://portal.cms.gov/portal/forgotuserid, Expected URL : https://portal.cms.gov/portal/forgotuserid
+Sep 19, 2024 1:39:52 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+]]></system-err>
+  </testcase>
+  <testcase name="use_of_dropdown_with_selectByValue_method_test" classname="pagesTest.ForgotUserIdTest" time="12.45">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/muhammadquarashy/.cache/selenium/chromedriver/mac64/128.0.6613.137/chromedriver
+Sep 19, 2024 1:39:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 128
+Sep 19, 2024 1:40:02 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:40:02 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (36b7e96738be894ef828ca1649d1814a)] -> id: cms-forgot-userid]<---------> is Displayed, true
+Sep 19, 2024 1:40:02 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (36b7e96738be894ef828ca1649d1814a)] -> id: cms-forgot-userid]<-------> has been clicked
+Sep 19, 2024 1:40:06 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:40:06 PM reports.Loggers logTheTest
+INFO: Actual Title is : CMS Enterprise Portal - Forgot User ID ---> And Expected Title is :CMS Enterprise Portal - Forgot User ID
+Sep 19, 2024 1:40:06 PM reports.Loggers logTheTest
+INFO: Current URL : https://portal.cms.gov/portal/forgotuserid, Expected URL : https://portal.cms.gov/portal/forgotuserid
+Sep 19, 2024 1:40:10 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+]]></system-err>
+  </testcase>
+  <testcase name="verifyForgotUserIdTest" classname="pagesTest.ForgotUserIdTest" time="45.625">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=128.0.6613.138)&#10;Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [bef4ab6db175e018c184efc50a75c6d4, findElement {value=//select[@name=&apos;cms-forgotid-birthDate&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: /var/folders/2q/c_mlfcxd4_s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53542/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bef4ab6db175e018c184efc50a75c6d4" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bef4ab6db175e018c184efc50a75c6d4, findElement {value=//select[@name='cms-forgotid-birthDate'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: /var/folders/2q/c_mlfcxd4_s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53542/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef4ab6db175e018c184efc50a75c6d4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
+	at common.CommonActions.selectDropdown(CommonActions.java:188)
+	at pages.ForgotUserId.verifyForgotUserId(ForgotUserId.java:109)
+	at pagesTest.ForgotUserIdTest.verifyForgotUserIdTest(ForgotUserIdTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/muhammadquarashy/.cache/selenium/chromedriver/mac64/128.0.6613.137/chromedriver
+Sep 19, 2024 1:40:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 128
+Sep 19, 2024 1:40:19 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:40:19 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> id: cms-forgot-userid]<---------> is Displayed, true
+Sep 19, 2024 1:40:19 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> id: cms-forgot-userid]<-------> has been clicked
+Sep 19, 2024 1:40:23 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:40:23 PM reports.Loggers logTheTest
+INFO: Actual Title is : CMS Enterprise Portal - Forgot User ID ---> And Expected Title is :CMS Enterprise Portal - Forgot User ID
+Sep 19, 2024 1:40:23 PM reports.Loggers logTheTest
+INFO: Current URL : https://portal.cms.gov/portal/forgotuserid, Expected URL : https://portal.cms.gov/portal/forgotuserid
+Sep 19, 2024 1:40:23 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> xpath: //h1[contains(text(), 'Forgot User ID')]] ---> Actual Header : Forgot User ID. Expected Header : Forgot User ID
+Sep 19, 2024 1:40:23 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> xpath: //p[contains(text(), 'Please e')]] ---> Actual SubHeader : Please enter the following information to retrieve your User ID.. Expected SubHeader : Please enter the following information to retrieve your User ID.
+Sep 19, 2024 1:40:23 PM reports.Loggers logTheTest
+INFO: [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> xpath: //p[contains(@id, 'cms-allfields-req')]] ---> Actual Other Header : All fields are required.. Expected Other Header : All fields are required.
+Sep 19, 2024 1:40:24 PM reports.Loggers logTheTest
+INFO: Mohammad <-----> has been put into <-----> [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> xpath: //input[contains(@id, 'cms-forgotid-fi')]]
+Sep 19, 2024 1:40:28 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+Sep 19, 2024 1:40:29 PM reports.Loggers logTheTest
+INFO: Sharkar <-----> has been put into <-----> [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> xpath: //input[@name='cms-forgotid-lastName']]
+Sep 19, 2024 1:40:29 PM reports.Loggers logTheTest
+INFO: January is present in the dropdpwn
+Sep 19, 2024 1:40:31 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:31 PM reports.Loggers logTheTest
+INFO: February is present in the dropdpwn
+Sep 19, 2024 1:40:34 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:34 PM reports.Loggers logTheTest
+INFO: March is present in the dropdpwn
+Sep 19, 2024 1:40:36 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:36 PM reports.Loggers logTheTest
+INFO: April is present in the dropdpwn
+Sep 19, 2024 1:40:38 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:38 PM reports.Loggers logTheTest
+INFO: May is present in the dropdpwn
+Sep 19, 2024 1:40:40 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:40 PM reports.Loggers logTheTest
+INFO: June is present in the dropdpwn
+Sep 19, 2024 1:40:43 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:43 PM reports.Loggers logTheTest
+INFO: July is present in the dropdpwn
+Sep 19, 2024 1:40:45 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:45 PM reports.Loggers logTheTest
+INFO: August is present in the dropdpwn
+Sep 19, 2024 1:40:47 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:47 PM reports.Loggers logTheTest
+INFO: September is present in the dropdpwn
+Sep 19, 2024 1:40:49 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:49 PM reports.Loggers logTheTest
+INFO: October is present in the dropdpwn
+Sep 19, 2024 1:40:51 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:51 PM reports.Loggers logTheTest
+INFO: November is present in the dropdpwn
+Sep 19, 2024 1:40:54 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:54 PM reports.Loggers logTheTest
+INFO: December is present in the dropdpwn
+Sep 19, 2024 1:40:56 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 2000
+Sep 19, 2024 1:40:56 PM reports.Loggers logTheTest
+INFO: Total Element: 12 is present in the dropdown
+Sep 19, 2024 1:40:56 PM reports.Loggers logTheTest
+INFO: June has been selected from the dropdown of ---> [[ChromeDriver: chrome on mac (bef4ab6db175e018c184efc50a75c6d4)] -> xpath: //select[contains(@name, 'cms-forgotid-birthM')]]
+Sep 19, 2024 1:41:00 PM reports.Loggers logTheTest
+INFO: Sleeping ... zZz 4000
+]]></system-err>
+  </testcase>
+  <testcase name="initialTest[public void pagesTest.HomePageTest.alternate_of_click_method_test()](0)" classname="pagesTest.HomePageTest" time="45.856">
+    <failure message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "extentReports" is null
+	at reports.TestManager.createTest(TestManager.java:14)
+	at baseUtil.BaseClass.initialTest(BaseClass.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bef4ab6db175e018c184efc50a75c6d4, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: /var/folders/2q/c_mlfcxd4_s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53542/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef4ab6db175e018c184efc50a75c6d4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at common.CommonActions.getSreenShot(CommonActions.java:333)
+	at baseUtil.BaseClass.afterEachTest(BaseClass.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Sep 19, 2024 1:41:00 PM reports.Loggers logTheTest
+INFO: Screenshot cannot be captured
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="alternate_of_click_method_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearUp" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="alternate_of_send_keys_method_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="authentication_pop_up_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="clickNewUserRegistrationTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="clickPasswordTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="clickUnlockTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="clickUserIdTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="getMethodsOfThePageTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="how_to_handle_hidden_element_by_javascriptExecutor_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="how_to_handle_hidden_element_by_regular_selenium_method_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="implicitlyWaitTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="inputTextInUserIdAndPasswordFieldThenIAgreeAndClickToTheLoginButtonTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="inputTextInUserIdFieldTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="login_process_by_JavascriptExecutor_common_method_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="login_process_by_JavascriptExecutor_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="newUserRegistrationPageValidationTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="nullPointerExceptionTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="role1_use_of_cssSelector_by_class_name_value_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="role2_use_of_cssSelector_by_id_value_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="role3_use_of_cssSelector_by_compund_class_name_value_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="role4_use_of_cssSelector_by_attribute_and_its_value_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="role5_use_of_cssSelector_by_class_name_value_and_attribute_and_its_value_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="role6_use_of_cssSelector_by_id_value_and_attribute_and_its_value_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="scroll_into_view_the_element_by_commonActions_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="scroll_into_view_the_element_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="switch_between_window_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="useOfByClassInLoginProcessTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_double_click_action_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_explicitly_wait_01_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_explicitly_wait_02_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_explicitly_wait_03_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_explicitly_wait_04_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_explicitly_wait_05_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_explicitly_wait_from_common_waits_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_getAttribute_by_common_method_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_getAttribute_method_Test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_isDisplayed_in_login_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_isDisplayed_test_01" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_isDisplayed_test_02" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_isEnabled_in_login_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_isSelected_in_login" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_linkText_as_locator_in_forgot_userId_hyperlink_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_mouse_hoverAction_on_ourLocations_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_navigate_method_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_partialLinkText_as_locator_in_forgot_passowrd_hyperlink_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_right_click_action_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_scroll_down_and_scroll_up_by_robot_class" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_scroll_down_and_up_by_actions_class_Test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_scroll_down_and_up_by_javascriptExecutor_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_sendKeys_method_then_click_by_enter_key_of_the_laptop_test_01" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_sendKeys_method_then_click_by_enter_key_of_the_laptop_test_02" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_sendKeys_method_then_click_by_return_key_of_the_laptop_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_sendKeys_method_then_click_by_tab_key_of_the_laptop_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_tagName_as_locator_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="web_based_alert_accept_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="web_based_alert_dismiss_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="why_we_use_cssSelector_as_locator_in_logo_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="clickLogoTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="clickLoginButtonTest" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+  <testcase name="use_of_clear_in_login_test" classname="pagesTest.HomePageTest" time="0.0">
+    <skipped message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;extentReports&quot; is null"/>
+  </testcase>
+</testsuite>

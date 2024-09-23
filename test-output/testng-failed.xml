@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng_suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pagesTest.ForgotUserIdTest">
+        <methods>
+          <include name="use_of_dropdown_selectByVisibleText_method_test"/>
+          <include name="initialTest"/>
+          <include name="tearUp"/>
+          <include name="verifyForgotUserIdTest"/>
+          <include name="afterEachTest"/>
+          <include name="publishReport"/>
+          <include name="initialReporting"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pagesTest.ForgotUserIdTest -->
+      <class name="pagesTest.HomePageTest">
+        <methods>
+          <include name="role5_use_of_cssSelector_by_class_name_value_and_attribute_and_its_value_test"/>
+          <include name="clickLoginButtonTest"/>
+          <include name="inputTextInUserIdFieldTest"/>
+          <include name="scroll_into_view_the_element_test"/>
+          <include name="implicitlyWaitTest"/>
+          <include name="publishReport"/>
+          <include name="initialReporting"/>
+          <include name="use_of_explicitly_wait_04_test"/>
+          <include name="clickUserIdTest"/>
+          <include name="setUp"/>
+          <include name="use_of_explicitly_wait_01_test"/>
+          <include name="use_of_sendKeys_method_then_click_by_tab_key_of_the_laptop_test"/>
+          <include name="use_of_isDisplayed_test_02"/>
+          <include name="use_of_isDisplayed_test_01"/>
+          <include name="useOfByClassInLoginProcessTest"/>
+          <include name="use_of_scroll_down_and_up_by_javascriptExecutor_test"/>
+          <include name="role4_use_of_cssSelector_by_attribute_and_its_value_test"/>
+          <include name="use_of_isSelected_in_login"/>
+          <include name="use_of_scroll_down_and_up_by_actions_class_Test"/>
+          <include name="authentication_pop_up_test"/>
+          <include name="alternate_of_send_keys_method_test"/>
+          <include name="initialTest"/>
+          <include name="switch_between_window_test"/>
+          <include name="web_based_alert_accept_test"/>
+          <include name="use_of_sendKeys_method_then_click_by_enter_key_of_the_laptop_test_02"/>
+          <include name="role3_use_of_cssSelector_by_compund_class_name_value_test"/>
+          <include name="tearUp"/>
+          <include name="clickPasswordTest"/>
+          <include name="use_of_sendKeys_method_then_click_by_enter_key_of_the_laptop_test_01"/>
+          <include name="use_of_linkText_as_locator_in_forgot_userId_hyperlink_test"/>
+          <include name="use_of_mouse_hoverAction_on_ourLocations_test"/>
+          <include name="login_process_by_JavascriptExecutor_test"/>
+          <include name="web_based_alert_dismiss_test"/>
+          <include name="use_of_isDisplayed_in_login_test"/>
+          <include name="alternate_of_click_method_test"/>
+          <include name="how_to_handle_hidden_element_by_regular_selenium_method_test"/>
+          <include name="use_of_explicitly_wait_02_test"/>
+          <include name="use_of_right_click_action_test"/>
+          <include name="afterEachTest"/>
+          <include name="clickNewUserRegistrationTest"/>
+          <include name="why_we_use_cssSelector_as_locator_in_logo_test"/>
+          <include name="use_of_getAttribute_method_Test"/>
+          <include name="use_of_navigate_method_test"/>
+          <include name="inputTextInUserIdAndPasswordFieldThenIAgreeAndClickToTheLoginButtonTest"/>
+          <include name="clickLogoTest"/>
+          <include name="role1_use_of_cssSelector_by_class_name_value_test"/>
+          <include name="role6_use_of_cssSelector_by_id_value_and_attribute_and_its_value_test"/>
+          <include name="use_of_explicitly_wait_03_test"/>
+          <include name="clickUnlockTest"/>
+          <include name="getMethodsOfThePageTest"/>
+          <include name="use_of_partialLinkText_as_locator_in_forgot_passowrd_hyperlink_test"/>
+          <include name="nullPointerExceptionTest"/>
+          <include name="scroll_into_view_the_element_by_commonActions_test"/>
+          <include name="use_of_scroll_down_and_scroll_up_by_robot_class"/>
+          <include name="use_of_clear_in_login_test"/>
+          <include name="use_of_sendKeys_method_then_click_by_return_key_of_the_laptop_test"/>
+          <include name="how_to_handle_hidden_element_by_javascriptExecutor_test"/>
+          <include name="role2_use_of_cssSelector_by_id_value_test"/>
+          <include name="use_of_tagName_as_locator_test"/>
+          <include name="use_of_getAttribute_by_common_method_test"/>
+          <include name="login_process_by_JavascriptExecutor_common_method_test"/>
+          <include name="newUserRegistrationPageValidationTest"/>
+          <include name="use_of_double_click_action_test"/>
+          <include name="use_of_isEnabled_in_login_test"/>
+          <include name="use_of_explicitly_wait_from_common_waits_test"/>
+          <include name="use_of_explicitly_wait_05_test"/>
+        </methods>
+      </class> <!-- pagesTest.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testng_suite] -->
